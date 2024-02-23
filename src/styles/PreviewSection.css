@@ -1,0 +1,12 @@
+.preview-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 0.1rem solid grey;
+  justify-self: end;
+  align-self: start;
+  padding: 1rem;
+}
+
+.preview-section img {
+  padding: 1rem;
+}

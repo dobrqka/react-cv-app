@@ -1,0 +1,35 @@
+/* .contact-input {
+  color: hsl(0, 0%, 4%);
+  margin-right: 2rem;
+}
+
+.contact-input fieldset {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.contact-input label {
+  justify-self: start;
+}
+
+.contact-input input {
+  grid-column: span 3;
+  border-radius: 0.25rem;
+}
+
+.contact-input button {
+  grid-column: span 2;
+}
+
+.submit {
+  background-color: rgb(95, 95, 255);
+  color: white;
+}
+
+.edit {
+  background-color: rgb(40, 255, 40);
+  color: black;
+} */

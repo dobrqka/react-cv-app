@@ -1,0 +1,6 @@
+/* .summary-input {
+} */
+
+.summary-input textarea {
+  grid-column: span 4;
+}

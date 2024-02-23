@@ -1,0 +1,11 @@
+/* .education-input {
+} */
+
+.delete-education {
+  grid-column: span 4;
+  background-color: rgb(255, 209, 209);
+}
+
+.delete-education:hover {
+  background-color: rgb(255, 148, 148);
+}

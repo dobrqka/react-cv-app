@@ -1,0 +1,8 @@
+.side-bar {
+  background-color: rgb(95, 95, 255);
+  color: white;
+}
+
+.side-bar img {
+  max-width: 200px;
+}

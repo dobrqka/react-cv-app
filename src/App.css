@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+hr {
+  margin: 0 2rem;
+}
+
+.little-hr {
+  margin: 0 5rem;
+  color: rgb(230, 230, 230);
+  border: 1px dotted;
+}
+
+button:disabled {
+  background-color: grey;
+  opacity: 0.2;
+}

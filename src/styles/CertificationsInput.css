@@ -1,0 +1,16 @@
+/* .certifications-input {
+} */
+
+.certifications-input input {
+  align-self: center;
+  grid-column: span 3;
+}
+
+.delete-certification {
+  grid-column: span 4;
+  background-color: rgb(255, 209, 209);
+}
+
+.delete-certification:hover {
+  background-color: rgb(255, 148, 148);
+}

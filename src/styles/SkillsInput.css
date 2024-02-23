@@ -1,0 +1,37 @@
+.skills-input ul {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 0;
+}
+
+.skills-input li {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills-input input {
+  grid-column: span 2;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.skills-input label {
+  justify-self: center;
+}
+
+.skills-input .delete-button {
+  background-color: rgb(255, 209, 209);
+  justify-self: center;
+  background-image: url("../../public/trash-can-outline.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skills-input .delete-button:hover {
+  background-color: rgb(255, 131, 131);
+}

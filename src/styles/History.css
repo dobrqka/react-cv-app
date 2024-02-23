@@ -1,0 +1,12 @@
+.history {
+  background-color: white;
+}
+
+.history ul {
+  padding: 0;
+}
+
+.history li {
+  justify-content: center;
+  list-style-position: inside;
+}

@@ -1,0 +1,39 @@
+.input-section {
+  color: hsl(0, 0%, 4%);
+  margin-right: 2rem;
+}
+
+.input-section fieldset {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.input-section label {
+  justify-self: start;
+  align-self: center;
+}
+
+.input-section input {
+  grid-column: span 3;
+  border-radius: 0.25rem;
+}
+
+.submit {
+  grid-column: span 2;
+  background-color: rgb(95, 95, 255);
+  color: white;
+}
+
+.edit {
+  grid-column: span 2;
+  background-color: rgb(40, 255, 40);
+  color: black;
+}
+
+.add {
+  grid-column: span 4;
+  background-color: rgb(228, 228, 228);
+}

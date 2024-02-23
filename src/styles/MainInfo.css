@@ -1,0 +1,12 @@
+.main-info {
+  background-color: white;
+}
+
+.bold-line {
+  height: 0.25rem;
+  background-color: rgb(56, 56, 56);
+}
+
+.full-name {
+  color: rgb(95, 95, 255);
+}
